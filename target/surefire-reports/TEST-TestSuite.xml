@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,221.149" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,222.264" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
     <property name="java.vm.version" value="25.281-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\SHASHMIS\Documents\AI Agent"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\SHASHMIS\Documents\GitHub\AI-AGENT"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\SHASHMIS\Documents\AI Agent"/>
+    <property name="user.dir" value="C:\Users\SHASHMIS\Documents\GitHub\AI-AGENT"/>
     <property name="java.runtime.version" value="1.8.0_281-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\SHASHMIS\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6617181199900229074.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\SHASHMIS\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf389184183232979810.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_281/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_281/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_281/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\SHASHMIS\Downloads\Setup\apache-maven-3.6.3\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\SHASHMIS\AppData\Local\Microsoft\WindowsApps;C:\Users\SHASHMIS\AppData\Local\GitHubDesktop\bin;C:\Users\SHASHMIS\Downloads\Setup\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\SHASHMIS\Documents\AI Agent\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\SHASHMIS\Documents\GitHub\AI-AGENT\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,9 +60,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Test_TC001" classname="test.java.TestAgent.TC001" time="238.53"/>
-  <testcase name="Test_TC002" classname="test.java.TestAgent.TC002" time="216.222"/>
-  <testcase name="Test_TC003" classname="test.java.TestAgent.TC003" time="160.747"/>
-  <testcase name="Test_TC004" classname="test.java.TestAgent.TC004" time="425.583"/>
-  <testcase name="Test_TC005" classname="test.java.TestAgent.TC005" time="175.759"/>
+  <testcase name="Test_TC001" classname="testAgent.TC001" time="238.941"/>
+  <testcase name="Test_TC002" classname="testAgent.TC002" time="216.562"/>
+  <testcase name="Test_TC003" classname="testAgent.TC003" time="160.884"/>
+  <testcase name="Test_TC004" classname="testAgent.TC004" time="425.921"/>
+  <testcase name="Test_TC005" classname="testAgent.TC005" time="175.726"/>
 </testsuite>

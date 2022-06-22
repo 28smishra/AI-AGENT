@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="ChatBot_Suite" duration-ms="1220508" started-at="2022-06-22T08:02:49Z" finished-at="2022-06-22T08:23:10Z">
+  <suite name="ChatBot_Suite" duration-ms="1221662" started-at="2022-06-22T11:26:57Z" finished-at="2022-06-22T11:47:19Z">
     <groups>
     </groups>
-    <test name="TC001" duration-ms="241995" started-at="2022-06-22T08:02:49Z" finished-at="2022-06-22T08:06:51Z">
-      <class name="test.java.TestAgent.TC001">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.TestAgent.TC001@3498ed]" name="setUp" is-config="true" duration-ms="3434" started-at="2022-06-22T08:02:49Z" finished-at="2022-06-22T08:02:53Z">
+    <test name="TC001" duration-ms="242340" started-at="2022-06-22T11:26:57Z" finished-at="2022-06-22T11:31:00Z">
+      <class name="testAgent.TC001">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testAgent.TC001@3498ed]" name="setUp" is-config="true" duration-ms="3375" started-at="2022-06-22T11:26:57Z" finished-at="2022-06-22T11:27:01Z">
           <params>
             <param index="0">
               <value>
@@ -53,15 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test_TC001()[pri:0, instance:test.java.TestAgent.TC001@3498ed]" name="Test_TC001" duration-ms="238528" started-at="2022-06-22T08:02:53Z" finished-at="2022-06-22T08:06:51Z">
+        <test-method status="PASS" signature="Test_TC001()[pri:0, instance:testAgent.TC001@3498ed]" name="Test_TC001" duration-ms="238940" started-at="2022-06-22T11:27:01Z" finished-at="2022-06-22T11:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TC001 -->
-      </class> <!-- test.java.TestAgent.TC001 -->
+      </class> <!-- testAgent.TC001 -->
     </test> <!-- TC001 -->
-    <test name="TC002" duration-ms="216252" started-at="2022-06-22T08:06:51Z" finished-at="2022-06-22T08:10:28Z">
-      <class name="test.java.TestAgent.TC002">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.TestAgent.TC002@4cb2c100]" name="setUp" is-config="true" duration-ms="29" started-at="2022-06-22T08:06:51Z" finished-at="2022-06-22T08:06:51Z">
+    <test name="TC002" duration-ms="216600" started-at="2022-06-22T11:31:00Z" finished-at="2022-06-22T11:34:36Z">
+      <class name="testAgent.TC002">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testAgent.TC002@4cb2c100]" name="setUp" is-config="true" duration-ms="39" started-at="2022-06-22T11:31:00Z" finished-at="2022-06-22T11:31:00Z">
           <params>
             <param index="0">
               <value>
@@ -107,15 +107,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test_TC002()[pri:0, instance:test.java.TestAgent.TC002@4cb2c100]" name="Test_TC002" duration-ms="216222" started-at="2022-06-22T08:06:51Z" finished-at="2022-06-22T08:10:28Z">
+        <test-method status="PASS" signature="Test_TC002()[pri:0, instance:testAgent.TC002@4cb2c100]" name="Test_TC002" duration-ms="216561" started-at="2022-06-22T11:31:00Z" finished-at="2022-06-22T11:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TC002 -->
-      </class> <!-- test.java.TestAgent.TC002 -->
+      </class> <!-- testAgent.TC002 -->
     </test> <!-- TC002 -->
-    <test name="TC003" duration-ms="160779" started-at="2022-06-22T08:10:28Z" finished-at="2022-06-22T08:13:08Z">
-      <class name="test.java.TestAgent.TC003">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.TestAgent.TC003@3567135c]" name="setUp" is-config="true" duration-ms="31" started-at="2022-06-22T08:10:28Z" finished-at="2022-06-22T08:10:28Z">
+    <test name="TC003" duration-ms="160924" started-at="2022-06-22T11:34:36Z" finished-at="2022-06-22T11:37:17Z">
+      <class name="testAgent.TC003">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testAgent.TC003@3567135c]" name="setUp" is-config="true" duration-ms="38" started-at="2022-06-22T11:34:36Z" finished-at="2022-06-22T11:34:36Z">
           <params>
             <param index="0">
               <value>
@@ -161,15 +161,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test_TC003()[pri:0, instance:test.java.TestAgent.TC003@3567135c]" name="Test_TC003" duration-ms="160747" started-at="2022-06-22T08:10:28Z" finished-at="2022-06-22T08:13:08Z">
+        <test-method status="PASS" signature="Test_TC003()[pri:0, instance:testAgent.TC003@3567135c]" name="Test_TC003" duration-ms="160884" started-at="2022-06-22T11:34:36Z" finished-at="2022-06-22T11:37:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TC003 -->
-      </class> <!-- test.java.TestAgent.TC003 -->
+      </class> <!-- testAgent.TC003 -->
     </test> <!-- TC003 -->
-    <test name="TC004" duration-ms="425614" started-at="2022-06-22T08:13:08Z" finished-at="2022-06-22T08:20:14Z">
-      <class name="test.java.TestAgent.TC004">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.TestAgent.TC004@1936f0f5]" name="setUp" is-config="true" duration-ms="32" started-at="2022-06-22T08:13:08Z" finished-at="2022-06-22T08:13:09Z">
+    <test name="TC004" duration-ms="425949" started-at="2022-06-22T11:37:17Z" finished-at="2022-06-22T11:44:23Z">
+      <class name="testAgent.TC004">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testAgent.TC004@1936f0f5]" name="setUp" is-config="true" duration-ms="28" started-at="2022-06-22T11:37:17Z" finished-at="2022-06-22T11:37:17Z">
           <params>
             <param index="0">
               <value>
@@ -215,15 +215,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test_TC004()[pri:0, instance:test.java.TestAgent.TC004@1936f0f5]" name="Test_TC004" duration-ms="425582" started-at="2022-06-22T08:13:09Z" finished-at="2022-06-22T08:20:14Z">
+        <test-method status="PASS" signature="Test_TC004()[pri:0, instance:testAgent.TC004@1936f0f5]" name="Test_TC004" duration-ms="425921" started-at="2022-06-22T11:37:17Z" finished-at="2022-06-22T11:44:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TC004 -->
-      </class> <!-- test.java.TestAgent.TC004 -->
+      </class> <!-- testAgent.TC004 -->
     </test> <!-- TC004 -->
-    <test name="TC005" duration-ms="175784" started-at="2022-06-22T08:20:14Z" finished-at="2022-06-22T08:23:10Z">
-      <class name="test.java.TestAgent.TC005">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.TestAgent.TC005@67b6d4ae]" name="setUp" is-config="true" duration-ms="24" started-at="2022-06-22T08:20:14Z" finished-at="2022-06-22T08:20:14Z">
+    <test name="TC005" duration-ms="175754" started-at="2022-06-22T11:44:23Z" finished-at="2022-06-22T11:47:19Z">
+      <class name="testAgent.TC005">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testAgent.TC005@67b6d4ae]" name="setUp" is-config="true" duration-ms="28" started-at="2022-06-22T11:44:23Z" finished-at="2022-06-22T11:44:23Z">
           <params>
             <param index="0">
               <value>
@@ -269,11 +269,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test_TC005()[pri:0, instance:test.java.TestAgent.TC005@67b6d4ae]" name="Test_TC005" duration-ms="175760" started-at="2022-06-22T08:20:14Z" finished-at="2022-06-22T08:23:10Z">
+        <test-method status="PASS" signature="Test_TC005()[pri:0, instance:testAgent.TC005@67b6d4ae]" name="Test_TC005" duration-ms="175725" started-at="2022-06-22T11:44:23Z" finished-at="2022-06-22T11:47:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_TC005 -->
-      </class> <!-- test.java.TestAgent.TC005 -->
+      </class> <!-- testAgent.TC005 -->
     </test> <!-- TC005 -->
   </suite> <!-- ChatBot_Suite -->
 </testng-results>

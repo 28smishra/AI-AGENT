@@ -1,5 +1,5 @@
-test\java\TestAgent\TC005.class
-test\java\TestAgent\TC004.class
-test\java\TestAgent\TC002.class
-test\java\TestAgent\TC003.class
-test\java\TestAgent\TC001.class
+testAgent\TC003.class
+testAgent\TC005.class
+testAgent\TC001.class
+testAgent\TC002.class
+testAgent\TC004.class
