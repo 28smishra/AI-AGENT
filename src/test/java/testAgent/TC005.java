@@ -1,4 +1,4 @@
-package test.java.TestAgent;
+package testAgent;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -11,14 +11,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import main.java.core_framework.BrowserDriver;
-import main.java.core_framework.ConsoleLogger;
-import main.java.core_framework.ExcelUtils;
-import main.java.core_framework.ReportingUtils;
-import main.java.core_framework.WebElementUtils;
-import main.java.pages.TestAgent;
+import core_framework.BrowserDriver;
+import core_framework.ConsoleLogger;
+import core_framework.ExcelUtils;
+import core_framework.ReportingUtils;
+import core_framework.WebElementUtils;
+import pages.TestAgent;
 
-public class TC003 {
+public class TC005 {
 	
 	WebDriver driver;
 	WebElementUtils webUtils;
@@ -51,8 +51,8 @@ public class TC003 {
 	}
 
 	@Test
-	public void Test_TC003() {
-		ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.INFO, "Test Started: test.java.stocks.TC003");
+	public void Test_TC005() {
+		ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.INFO, "Test Started: test.java.stocks.TC005");
 		try {
 			ReportingUtils.createNewTest(this.moduleName + "_" + this.tcName, tcDescription);
 			for (int iteration = 0; iteration < testData.size(); iteration++) {
@@ -65,19 +65,15 @@ public class TC003 {
 						ReportingUtils.infoLog("Test Data for " + this.moduleName + "_" + this.tcName + "_" + dataMap.get("Iteration") + ": <br><br>" + dataMap, null);
 						ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.INFO, "Test Data: " + dataMap);
 						
-						String greetings = dataMap.get("GreetingsMessage");
-						String fullName = dataMap.get("FullName");
-						String address = dataMap.get("Address");
-						String gender = dataMap.get("Gender");
-						String select = dataMap.get("Select");
-						String rating = dataMap.get("Rating");
-						
+						String policyNumber = dataMap.get("PolicyNumber");
+						String registrationNumber = dataMap.get("RegistrationNumber");
+						String phoneNumber = dataMap.get("PhoneNumber");
+						String email = dataMap.get("Email");
+							
 						TestAgent agent = new TestAgent();
 						agent.launchApplication();
 						
-						agent.sendGreetings(greetings);
-						
-						agent.testBot(fullName, address, gender, select, rating);
+						agent.renewMotorPolicy(policyNumber, registrationNumber, phoneNumber, email);
 						
 						ReportingUtils.passLog("TC Passed", null);
 						ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.PASS, "TC Passed");

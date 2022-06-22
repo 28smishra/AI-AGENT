@@ -7,43 +7,43 @@
 	<parameter name="reportsDirectory" value="\Reports" />
 	<parameter name="testSelectionId" value="DummyTestSelectionId" />
 
-	<test enabled="false" name="TC001">
+	<test enabled="true" name="TC001">
 		<parameter name="testDataFile" value="/src/test/resources/testdata/TC001.xlsx" />
 		<parameter name="testDataSheet" value="TC001" />
 		<parameter name="tcName" value="TC001" />
 		<parameter name="tcDescription" value="Type Greetings and Get Response" />
 		<classes>
-			<class name="test.java.TestAgent.TC001" />
+			<class name="testAgent.TC001" />
 		</classes>
 	</test> <!-- Test -->
 	
-	<test enabled="false" name="TC002">
+	<test enabled="true" name="TC002">
 		<parameter name="testDataFile" value="/src/test/resources/testdata/TC002.xlsx" />
 		<parameter name="testDataSheet" value="TC002" />
 		<parameter name="tcName" value="TC002" />
 		<parameter name="tcDescription" value="Download Motor Policy" />
 		<classes>
-			<class name="test.java.TestAgent.TC002" />
+			<class name="testAgent.TC002" />
 		</classes>
 	</test> <!-- Test -->
 
-	<test enabled="false" name="TC003">
+	<test enabled="true" name="TC003">
 		<parameter name="testDataFile" value="/src/test/resources/testdata/TC003.xlsx" />
 		<parameter name="testDataSheet" value="TC003" />
 		<parameter name="tcName" value="TC003" />
 		<parameter name="tcDescription" value="Test Bot" />
 		<classes>
-			<class name="test.java.TestAgent.TC003" />
+			<class name="testAgent.TC003" />
 		</classes>
 	</test> <!-- Test -->
 	
-	<test enabled="false" name="TC004">
+	<test enabled="true" name="TC004">
 		<parameter name="testDataFile" value="/src/test/resources/testdata/TC004.xlsx" />
 		<parameter name="testDataSheet" value="TC004" />
 		<parameter name="tcName" value="TC004" />
 		<parameter name="tcDescription" value="New Test" />
 		<classes>
-			<class name="test.java.TestAgent.TC004" />
+			<class name="testAgent.TC004" />
 		</classes>
 	</test> <!-- Test -->
 	
@@ -53,7 +53,7 @@
 		<parameter name="tcName" value="TC005" />
 		<parameter name="tcDescription" value="Renew Motor Policy" />
 		<classes>
-			<class name="test.java.TestAgent.TC005" />
+			<class name="testAgent.TC005" />
 		</classes>
 	</test> <!-- Test -->
 	

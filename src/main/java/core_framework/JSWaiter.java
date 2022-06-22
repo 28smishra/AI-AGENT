@@ -1,4 +1,4 @@
-package main.java.core_framework;
+package core_framework;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

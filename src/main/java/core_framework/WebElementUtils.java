@@ -1,4 +1,4 @@
-package main.java.core_framework;
+package core_framework;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -16,13 +16,13 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import core_framework.ConsoleLogger.LogLevel;
+
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
-
-import main.java.core_framework.ConsoleLogger.LogLevel;
 
 public class WebElementUtils {
 

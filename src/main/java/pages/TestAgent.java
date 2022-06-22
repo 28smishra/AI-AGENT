@@ -1,4 +1,4 @@
-package main.java.pages;
+package pages;
 
 import java.util.ArrayList;
 import org.openqa.selenium.JavascriptExecutor;
@@ -6,10 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import main.java.core_framework.BrowserDriver;
-import main.java.core_framework.ConsoleLogger;
-import main.java.core_framework.ReportingUtils;
-import main.java.core_framework.WebElementUtils;
+
+import core_framework.BrowserDriver;
+import core_framework.ConsoleLogger;
+import core_framework.ReportingUtils;
+import core_framework.WebElementUtils;
 
 public class TestAgent {
 	

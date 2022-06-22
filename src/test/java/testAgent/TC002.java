@@ -1,4 +1,4 @@
-package test.java.TestAgent;
+package testAgent;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -11,14 +11,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import main.java.core_framework.BrowserDriver;
-import main.java.core_framework.ConsoleLogger;
-import main.java.core_framework.ExcelUtils;
-import main.java.core_framework.ReportingUtils;
-import main.java.core_framework.WebElementUtils;
-import main.java.pages.TestAgent;
+import core_framework.BrowserDriver;
+import core_framework.ConsoleLogger;
+import core_framework.ExcelUtils;
+import core_framework.ReportingUtils;
+import core_framework.WebElementUtils;
+import pages.TestAgent;
 
-public class TC004 {
+public class TC002 {
 	
 	WebDriver driver;
 	WebElementUtils webUtils;
@@ -51,8 +51,8 @@ public class TC004 {
 	}
 
 	@Test
-	public void Test_TC004() {
-		ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.INFO, "Test Started: test.java.stocks.TC004");
+	public void Test_TC002() {
+		ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.INFO, "Test Started: test.java.stocks.TC002");
 		try {
 			ReportingUtils.createNewTest(this.moduleName + "_" + this.tcName, tcDescription);
 			for (int iteration = 0; iteration < testData.size(); iteration++) {
@@ -65,15 +65,11 @@ public class TC004 {
 						ReportingUtils.infoLog("Test Data for " + this.moduleName + "_" + this.tcName + "_" + dataMap.get("Iteration") + ": <br><br>" + dataMap, null);
 						ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.INFO, "Test Data: " + dataMap);
 						
-						String greetings = dataMap.get("GreetingsMessage");
-						String testOption = dataMap.get("TestOption");
-						
+							
 						TestAgent agent = new TestAgent();
 						agent.launchApplication();
 						
-						agent.sendGreetings(greetings);
-						
-						agent.newTest(testOption);
+						agent.downloadMotorPolicy();
 						
 						ReportingUtils.passLog("TC Passed", null);
 						ConsoleLogger.writeConsoleLog(ConsoleLogger.LogLevel.PASS, "TC Passed");
@@ -104,4 +100,5 @@ public class TC004 {
 			ReportingUtils.endTest();
 		}
 	}
+
 }

@@ -1,4 +1,4 @@
-package main.java.core_framework;
+package core_framework;
 
 import java.io.IOException;
 import java.io.PrintWriter;

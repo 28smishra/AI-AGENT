@@ -1,6 +1,14 @@
-package test.java.TestAgent;
+package testAgent;
 
 import org.testng.annotations.Test;
+
+import core_framework.BrowserDriver;
+import core_framework.ConsoleLogger;
+import core_framework.ExcelUtils;
+import core_framework.ReportingUtils;
+import core_framework.WebElementUtils;
+import pages.TestAgent;
+
 import org.testng.annotations.BeforeMethod;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -9,12 +17,6 @@ import java.util.List;
 import java.util.Map;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Parameters;
-import main.java.core_framework.BrowserDriver;
-import main.java.core_framework.ConsoleLogger;
-import main.java.core_framework.ExcelUtils;
-import main.java.core_framework.ReportingUtils;
-import main.java.core_framework.WebElementUtils;
-import main.java.pages.TestAgent;
 
 public class TC001 {
 
