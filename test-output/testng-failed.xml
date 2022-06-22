@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [ChatBot_Suite]" parallel="tests">
+  <parameter name="reportsDirectory" value="/Reports"/>
+  <parameter name="testSelectionId" value="DummyTestSelectionId"/>
+  <parameter name="moduleName" value="ChatBot"/>
+  <parameter name="browserName" value="Chrome"/>
+  <test thread-count="1" name="TC001(failed)" parallel="tests">
+    <parameter name="tcName" value="TC001"/>
+    <parameter name="tcDescription" value="Type Greetings and Get Response"/>
+    <classes>
+      <class name="stocks.TC001">
+        <methods>
+          <include name="setUp"/>
+          <include name="Test_TC001"/>
+        </methods>
+      </class> <!-- stocks.TC001 -->
+    </classes>
+  </test> <!-- TC001(failed) -->
+</suite> <!-- Failed suite [ChatBot_Suite] -->

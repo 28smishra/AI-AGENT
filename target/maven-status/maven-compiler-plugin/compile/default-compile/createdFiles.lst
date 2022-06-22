@@ -1,0 +1,15 @@
+main\java\core_framework\ReportingUtils.class
+test\java\TestAgent\TC002.class
+main\java\core_framework\ConsoleLogger$1.class
+main\java\core_framework\ConsoleLogger.class
+main\java\core_framework\ExcelUtils$1.class
+main\java\pages\TestAgent.class
+test\java\TestAgent\TC003.class
+main\java\core_framework\BrowserDriver.class
+main\java\core_framework\JSWaiter.class
+test\java\TestAgent\TC005.class
+main\java\core_framework\ConsoleLogger$LogLevel.class
+test\java\TestAgent\TC004.class
+main\java\core_framework\ExcelUtils.class
+main\java\core_framework\WebElementUtils.class
+test\java\TestAgent\TC001.class

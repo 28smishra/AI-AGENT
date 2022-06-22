@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ChatBot_Suite" duration-ms="125695" started-at="2022-06-22T08:33:49Z" finished-at="2022-06-22T08:35:55Z">
+    <groups>
+    </groups>
+    <test name="TC005" duration-ms="125695" started-at="2022-06-22T08:33:49Z" finished-at="2022-06-22T08:35:55Z">
+      <class name="test.java.TestAgent.TC005">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.TestAgent.TC005@685cb137]" name="setUp" is-config="true" duration-ms="3339" started-at="2022-06-22T08:33:49Z" finished-at="2022-06-22T08:33:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/src/test/resources/testdata/TC005.xlsx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[\Reports]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ChatBot]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Renew Motor Policy]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[DummyTestSelectionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Test_TC005()[pri:0, instance:test.java.TestAgent.TC005@685cb137]" name="Test_TC005" duration-ms="122324" started-at="2022-06-22T08:33:53Z" finished-at="2022-06-22T08:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_TC005 -->
+      </class> <!-- test.java.TestAgent.TC005 -->
+    </test> <!-- TC005 -->
+  </suite> <!-- ChatBot_Suite -->
+</testng-results>
